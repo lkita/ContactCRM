@@ -6,6 +6,6 @@ public class Contact {
 	String city;
 	String state;
 	String zip;
-
+	String specialty;
 
 }
