@@ -1,5 +1,7 @@
 package company;
 
+import java.util.List;
+
 import contact.Contact;
 
 public class Company {
@@ -7,6 +9,8 @@ public class Company {
 	String address;
 	String specialty;
 	Contact mainContact;
+	List<Contact> employees;
+
 	public String getCompanyName() {
 		return companyName;
 	}
@@ -32,5 +36,8 @@ public class Company {
 		this.specialty = specialty;
 	}
 
+	public void addEmployees(Contact employee){
+		employees.add(employee);
+	}
 
 }
