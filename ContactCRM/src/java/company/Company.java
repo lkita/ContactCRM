@@ -5,6 +5,7 @@ import contact.Contact;
 public class Company {
 	String companyName;
 	String address;
+	String specialty;
 	Contact mainContact;
 	public String getCompanyName() {
 		return companyName;
@@ -24,7 +25,12 @@ public class Company {
 	public void setMainContact(Contact mainContact) {
 		this.mainContact = mainContact;
 	}
-	
-	
-	
+	public String getSpecialty() {
+		return specialty;
+	}
+	public void setSpecialty(String specialty) {
+		this.specialty = specialty;
+	}
+
+
 }
